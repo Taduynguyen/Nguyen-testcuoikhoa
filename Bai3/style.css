@@ -1,0 +1,117 @@
+:root {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    padding: 100px;
+}
+
+.users {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.search-wrapper {
+    width: 327px;
+    height: 64px;
+    border: 1px solid #BFC8E6;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    width: 32px;
+    height: 32px;
+    padding: 16px 8px 16px 16px;
+}
+
+.search-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #151B32;
+    outline: none;
+}
+
+.top-right {
+    display: flex;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.new-users {
+    background-color: #849FFF;
+    border-radius: 8px;
+    color: white;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-wrapper {
+    background-color: #FBFCFF;
+    width: 327px;
+    height: 208px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.middle-card {
+    border: 1px solid #BFC8E5;
+    border-radius: 16px;
+}
+
+.avatar {
+    width: 97px;
+    height: 97px;
+    padding: 24px 16px;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 18px;
+    color: #151B32;
+    margin-bottom: 4px;
+}
+
+.address {
+    font-weight: 500;
+    font-size: 14px;
+    color: #151B32;
+    margin-bottom: 18px;
+}
+
+.tag-wrapper {
+    gap: 4px;
+    display: flex;
+}
+
+.about {
+    border: 1px solid #BFC8E6;
+    color: #516FD4;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 2px 8px;
+}
